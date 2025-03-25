@@ -1,67 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developers United</title>
-    <style>
-        /* Inline CSS */
-        body {
- font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-			 background-image: url('https://wallpapercave.com/wp/wp14931500.webp');
-			 background-repeat: no-repeat;
-            background-size: cover;
-            color: #fff; /* Unified text color */
-        }
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: #333;
-            padding: 10px;
-            display: flex;
-            gap: 15px;
-        }
-        .navbar button {
-            background-color: #555;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .navbar button:hover {
-            background-color: #777;
-        }
-        .content {
-            margin-top: 60px;
-            text-align: center;
-        }
-        .content img {
-            width: 80%;
-            max-width: 500px;
-            transition: transform 0.5s ease-in-out;
-        }
-        .content img:hover {
-            transform: scale(1.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Animated Border Login Form</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <div class="navbar">
-        <button onclick="alert('Home clicked!')">Home</button>
-        <button onclick="alert('About Us clicked!')">About Us</button>
-        <button onclick="alert('Contact clicked!')">Contact</button>
+<!-- partial:index.partial.html -->
+<div class="box">
+  <div class="login">
+    <div class="loginBx">
+      <h2>
+        <i class="fa-solid fa-right-to-bracket"></i>
+        Login
+        <i class="fa-solid fa-heart"></i>
+      </h2>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <input type="submit" value="Sign in" />
+      <div class="group">
+        <a href="#">Forgot Password</a>
+        <a href="#">Sign up</a>
+      </div>
     </div>
-
-   <!-- Content Section -->
-    <div class="content">
-        <h1 style="color: #B8860B;">Howdy Developers</h1>
-        
-    </div>
+  </div>
+</div>
+<!-- partial -->
+  
 </body>
 </html>
