@@ -1,32 +1,24 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Animated Border Login Form</title>
-  <link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Trail Effect | code_wars_official</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            background: #151f28;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="box">
-  <div class="login">
-    <div class="loginBx">
-      <h2>
-        <i class="fa-solid fa-right-to-bracket"></i>
-        Login
-        <i class="fa-solid fa-heart"></i>
-      </h2>
-      <input type="text" placeholder="Username">
-      <input type="password" placeholder="Password">
-      <input type="submit" value="Sign in" />
-      <div class="group">
-        <a href="#">Forgot Password</a>
-        <a href="#">Sign up</a>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- partial -->
-  
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
 </body>
 </html>
